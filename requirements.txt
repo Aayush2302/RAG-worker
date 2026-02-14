@@ -1,4 +1,4 @@
-# requirements.txt - Fixed for Render.com with compatible dependencies
+# requirements.txt - Let supabase manage its own dependencies
 
 # ===============================
 # Web Framework
@@ -22,11 +22,10 @@ typing-extensions==4.10.0
 pymongo==4.6.1
 
 # ===============================
-# Supabase (stable set) - FIXED: httpx must be <0.26 for supabase 2.3.4
+# Supabase - Don't pin httpx, let supabase handle it
 # ===============================
 supabase==2.4.2
-httpx==0.24.1
-postgrest==0.13.2
+# httpx will be auto-installed by supabase
 
 # ===============================
 # PDF Processing
