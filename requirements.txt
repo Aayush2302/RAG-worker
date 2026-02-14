@@ -24,7 +24,7 @@ pymongo==4.6.1
 # ===============================
 # Supabase (stable set) - FIXED: httpx must be <0.26 for supabase 2.3.4
 # ===============================
-supabase==2.3.4
+supabase==2.4.2
 httpx==0.24.1
 postgrest==0.13.2
 
